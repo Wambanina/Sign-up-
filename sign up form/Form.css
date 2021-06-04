@@ -1,0 +1,39 @@
+*{
+    box-sizing: content-box;
+    background-color: aqua;
+}
+
+input[type=text],
+ input[type=password] {
+  width:100%;
+  padding:10px;
+  margin:5px 0 25px 0;
+  border:none;
+  background:#f1f1f1;
+}
+hr {
+    border:1px solid;
+    margin-bottom:25px;
+}
+.container {
+ padding:1px;
+}
+.clearfix::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+@media screen and (max-width: 300px)
+{
+    .cancelbtn{ 
+        width:100%;
+    } 
+    .signupbtn{
+        width: 100%;
+    }
+}
+.form{
+    padding: 1px;
+    border: 2px red;
+    width: 50%;
+}
